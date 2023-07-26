@@ -109,3 +109,7 @@
 #clubs a{
     text-decoration: none;
 }
+
+.team{
+    padding-bottom: 0 !important;
+}
