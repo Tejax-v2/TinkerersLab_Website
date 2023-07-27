@@ -938,6 +938,11 @@ footer p{
 	} */
 }
 
+@media (max-width:767px){
+	.equal-height-row{
+		flex-direction: column;
+	}
+}
 
 @media (max-width:639px){
 	.lottie{
@@ -961,3 +966,29 @@ footer p{
 		margin: 0 3em;
 	}
 }
+
+@media (max-width: 1199px){
+	.aboutApp h1{
+		margin-bottom: 0.2em;
+	}
+	h1{
+		font-size: 2.5em;
+	}
+}
+
+.equal-height-row {
+	display: flex;
+  }
+  
+  /* The flex-grow class will make both columns take up equal available space */
+  .equal-height-row > .col-md-6 {
+	flex-grow: 1;
+  }
+
+  .pic{
+	display:flex;
+	align-items:center;
+  }
+  .app-image{
+	width:100%;
+  }
