@@ -965,6 +965,15 @@ footer p{
 	.content{
 		margin: 0 3em;
 	}
+	.navbar-brand{
+		font-size: 1.6em !important;
+	}
+	.content h1{
+		font-size: 2.4em !important;
+	}
+	.content h2{
+		font-size: 1.4em !important;
+	}
 }
 
 @media (max-width: 1199px){
