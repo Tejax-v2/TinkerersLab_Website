@@ -906,3 +906,58 @@ footer p{
 .foot{
 	padding-top: 1em;
 }
+
+
+
+/* Media queries */
+
+@media (max-width:767px) and (min-width:640px){
+	.lottie{
+		display:none;
+	}
+	#download-app1{
+		display:flex;
+		justify-content: center;
+	}
+	#download-app1 a{
+		margin-left: 0.5em;
+		margin-right: 0.5em;
+	}
+	.app-image img{
+		margin: 0 auto;
+	}
+	.content{
+		margin: 0 3em;
+	}
+	.features{
+		padding-top: 0;
+	}
+	/* #clubs {
+		background: url(../images/robot.webp) 50% 0 repeat fixed;
+		background-size: cover;
+	} */
+}
+
+
+@media (max-width:639px){
+	.lottie{
+		display:none;
+	}
+	#download-app1{
+		display:flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	#download-app1 a{
+		margin: 0.5em auto;
+	}
+	.app-image img{
+		margin: 0 auto;
+	}
+	.aboutApp-one{
+		padding-top: 60px;
+	}
+	.content{
+		margin: 0 3em;
+	}
+}
