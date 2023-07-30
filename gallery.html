@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Gallery - Tinkerers Lab</title>
 
+  <link rel="icon" href="images/tllogowhite.png" type="image/x-icon"/>
 
   <!-- Bootstrap 3.3.0 stylesheet -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -46,12 +47,12 @@
   
               <div class="navbar-collapse collapse">
                 <ul id="ulnav" class="nav navbar-nav navbar-right">
-                  <li class="active"><a href="#top">Home</a></li>
-                  <li><a href="#about">About us</a></li>
-                  <li><a href="#activities">Activities</a></li>
-                  <li><a href="#resources">Resources</a></li>
-                  <li><a href="#clubs">Clubs</a></li>
-                  <li><a href="#team">Team</a></li>
+                  <li class="active"><a href="index.html">Home</a></li>
+                  <li><a href="index.html">About us</a></li>
+                  <li><a href="index.html#activities">Activities</a></li>
+                  <li><a href="index.html#resources">Resources</a></li>
+                  <li><a href="index.html#clubs">Clubs</a></li>
+                  <li><a href="index.html#team">Team</a></li>
                   <!-- <li><a href="#contact">Contact</a></li> -->
                 </ul>
               </div><!-- end .navbar-collapse -->
@@ -62,7 +63,12 @@
       </section>
       <!-- ====== End Menu Section ====== -->
 
-      <h1 class="text-center">Our Showcase</h1>
+      <div class="header">
+        <h1>Our Showcase</h1>
+        <p>Welcome to Tinkerers Lab's vibrant Gallery, where imagination comes to life. Delve into a diverse collection of ingenious projects crafted by our creative community, igniting inspiration at every turn.</p>
+        <div class="underline">
+        </div>
+      </div> <!-- end .container> .header -->
   
 <div class="container filters">
   <div class="filter-btn"><button type="button" class="btn btn-primary btn-sm">All</button></div>
@@ -353,8 +359,6 @@
             jQuery("a[data-rel^='prettyPhoto']").prettyPhoto({social_tools:false});
           });
         </script>
-        <script src="js/responsive.js"></script>
-        <script src="js/navbar.js"></script>
 <script src="js/gallery.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
