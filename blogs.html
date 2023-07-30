@@ -29,6 +29,8 @@
     <!-- Custom Responsive stylesheet -->
     <link href="css/responsive.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="css/blogs.css">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -36,25 +38,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <style>
-      .flex-column {
-        max-width: 250px;
-      }
-  
-      img {
-        margin: 6px;
-      }
-      div.gallery {
-        display: inline-block !important;
-        margin: 2px;
-      }
-      div.gallcont{
-        display:flex !important;
-        flex-wrap: wrap;
-        justify-content: center;
-      }
-      </style>
-
+    
   </head>
 <body>
   <!-- ====== Menu Section ====== -->
@@ -95,38 +79,46 @@
 
       <!-- bootstrap image gallery 1 -->
 <div class="container-fluid">
-    <h1 class="text-center">Our Showcase</h1>
+    <h1 class="text-center">Blogs</h1>
     <!-- <p class="text-center">The oceans cover more than 70 per cent of the Earth’s surface and the majority of life on Earth is aquatic.</p> -->
   
-    <div class="gallcont">
-      <div class="gallery d-flex flex-column">
-        <img class="img-fluid" src="images/gallery/1.jpeg">
-        <img class="img-fluid" src="images/gallery/2.jpeg">
-      </div>
-  
-      <div class="gallery d-flex flex-column">
-        <img class="img-fluid" src="images/gallery/4.jpeg">
-        <img class="img-fluid" src="images/gallery/5.jpeg">
-        <img class="img-fluid" src="images/gallery/6.jpeg">
-        <!-- <img class="img-fluid" src="images/gallery/3.jpeg"> -->
-      </div>
-  
-      <div class="gallery d-flex flex-column">
-        <img class="img-fluid" src="images/gallery/7.jpeg">
-        <img class="img-fluid" src="images/gallery/8.jpeg">
-      </div>
-  
-      <div class="gallery d-flex flex-column">
-        <img class="img-fluid" src="images/gallery/10.jpeg">
-        <img class="img-fluid" src="images/gallery/11.jpeg">
-        <img class="img-fluid" src="images/gallery/14.jpeg">
-        <!-- <img class="img-fluid" src="images/gallery/12.jpeg"> -->
-      </div>
-  
-      <div class="gallery d-flex flex-column">
-        <img class="img-fluid" src="images/gallery/13.jpeg">
-        
-        <img class="img-fluid" src="images/gallery/15.jpeg">
+    <div class="container">
+      <div class="row mt-5">
+    
+        <div class="preview-card">
+          <div class="preview-card__wrp">
+            <div class="preview-card__item">
+              <div class="preview-card__img">
+                <img src="images/components/X-SMART.jpeg" alt="">
+              </div>
+              <div class="preview-card__content">
+                <span class="preview-card__code">26 December 2019</span>
+                <div class="preview-card__title">Lorem Ipsum Dolor</div>
+                <div class="preview-card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi? </div>
+                <a href="#" class="preview-card__button">READ MORE</a>
+              </div>
+            </div>
+    
+          </div>
+        </div>
+    
+        <div class="preview-card">
+          <div class="preview-card__wrp">
+            <div class="preview-card__item swiper-slide">
+              <div class="preview-card__img">
+                <img src="images/components/plutodrone.jpeg" alt="">
+              </div>
+              <div class="preview-card__content">
+                <span class="preview-card__code">26 December 2019</span>
+                <div class="preview-card__title">Lorem Ipsum Dolor</div>
+                <div class="preview-card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi? </div>
+                <a href="#" class="preview-card__button">READ MORE</a>
+              </div>
+            </div>
+    
+          </div>
+        </div>
+    
       </div>
     </div>
   </div>
