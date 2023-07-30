@@ -14,7 +14,53 @@ window.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+
+let logos = document.getElementsByClassName("app-image");
+console.log(logos);
+if (innerWidth <768){
+    logos[0].style.display = "block";
+    logos[1].style.display = "none";
+}
+else{
+    logos[0].style.display = "none";
+    logos[1].style.display = "block";
+}
+
     // Call the function on page load and whenever the window is resized
     updateParagraphContent();
     window.addEventListener('resize', updateParagraphContent);
 });
+
+// JavaScript to simulate slow loading
+function simulateSlowLoading() {
+    return new Promise((resolve) => {
+      // Simulate a delay of 3 seconds (adjust this as needed)
+      setTimeout(resolve, 4000);
+    });
+  }
+  
+  function fadeOutAndHide() {
+    const divToAnimate = document.getElementById("myDiv");
+    divToAnimate.style.opacity = "0"; // Set opacity to 0 for fade-out effect
+    setTimeout(function() {
+      divToAnimate.style.display = "none"; // After the animation, hide the div
+    }, 500); // Set the timeout to match the transition duration (0.5s in this example)
+  }
+
+  // Function to hide the splash screen and show the website content
+  function showWebsiteContent() {
+    const splashScreen = document.getElementById("fullScreenOverlay");
+    // const content = document.getElementById("content");
+    splashScreen.style.opacity = "0"; // Set opacity to 0 for fade-out effect
+    setTimeout(function() {
+      splashScreen.style.display = "none"; // After the animation, hide the div
+    }, 500); // Set the timeout to match the transition duration (0.5s in this example)
+    // Hide the splash screen
+    // splashScreen.style.display = "none";
+    // Show the website content
+    // content.style.display = "block";
+  }
+  
+  // Call the function to simulate slow loading
+  simulateSlowLoading().then(showWebsiteContent);
+  
