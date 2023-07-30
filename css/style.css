@@ -231,6 +231,7 @@ header {
 	font-size: 46px;
 	margin-top: 22%;
 	margin-bottom: 10px;
+	text-align: center;
 }
 .top .content h2 {
 	font-size: 27px;
@@ -940,6 +941,13 @@ footer p{
 	.equal-height-row{
 		flex-direction: column;
 	}
+	.content{
+		margin: 0 1em;
+		text-align: center;
+	}
+	#activities i.fa{
+		margin-left: 0;
+	}
 }
 
 @media (max-width:639px){
@@ -961,7 +969,8 @@ footer p{
 		padding-top: 60px;
 	}
 	.content{
-		margin: 0 3em;
+		margin: 0 1em;
+		text-align: center;
 	}
 	.navbar-brand{
 		font-size: 1.6em !important;
