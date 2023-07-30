@@ -231,7 +231,7 @@ header {
 	font-size: 46px;
 	margin-top: 22%;
 	margin-bottom: 10px;
-	text-align: center;
+	/* text-align: center; */
 }
 .top .content h2 {
 	font-size: 27px;
