@@ -972,6 +972,9 @@ footer p{
 	.content h2{
 		font-size: 1.4em !important;
 	}
+	#splashimg{
+		width: 100px !important;
+	}
 }
 
 @media (max-width: 1199px){
@@ -1024,10 +1027,24 @@ footer p{
 	  transform: rotate(360deg); /* Rotate to 360 degrees (one full circle) */
 	}
   }
+
+  @keyframes rotateAndScale {
+	0% {
+	  transform: rotate(0deg) scale(1);
+	}
+	50% {
+	  transform: rotate(180deg) scale(1.5);
+	}
+	100% {
+	  transform: rotate(360deg) scale(1);
+	}
+  }
   
   /* Optional: Add styling for the content inside the overlay */
   .splashlogo {
 	/* Add styles as needed */
 	animation: rotate 4s linear infinite;
   }
+
+
   
