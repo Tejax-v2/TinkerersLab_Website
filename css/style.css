@@ -941,7 +941,7 @@ footer p{
 	.equal-height-row{
 		flex-direction: column;
 	}
-	.content{
+	#about .content{
 		margin: 0 1em;
 		text-align: center;
 	}
