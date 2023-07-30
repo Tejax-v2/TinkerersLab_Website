@@ -537,12 +537,12 @@ header {
    8. Section Testimonial                 
 ========================================= */
 #clubs {
-	background: url(../images/communitybg.jpg) 50% 0 no-repeat fixed;
-	background-size: cover;
+	background: url(../images/slpic.jpeg) repeat fixed;
+	/* background-size: cover; */
 }
-.bg-testimonial {
+/* .bg-testimonial {
 	background-image: url(../images/pattern5.png);
-}
+} */
 .testimonial .testimonial-slide {
 	width: 70%;
 	margin: auto;
