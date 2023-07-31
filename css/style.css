@@ -908,6 +908,28 @@ footer p{
 	color:#3cc55f;
 }
 
+i.fa-person-chalkboard:hover{
+	color:#0fb83f !important;
+}
+
+i.fa-users-gear:hover{
+	color:rgb(107, 107, 107) !important;
+}
+
+i.fa-brain:hover{
+	color:#fc6c85 !important;
+}
+
+i.fa-microchip:hover{
+	color:#0c30a6 !important;
+}
+
+i.fa-screwdriver-wrench:hover{
+	color:rgb(107, 107, 107) !important;
+}
+i.fa-trophy:hover{
+	color:gold !important;
+}
 
 /* Media queries */
 
