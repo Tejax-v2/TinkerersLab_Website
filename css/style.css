@@ -540,9 +540,6 @@ header {
 	background: url(../images/slpic.jpeg) repeat fixed;
 	/* background-size: cover; */
 }
-/* .bg-testimonial {
-	background-image: url(../images/pattern5.png);
-} */
 .testimonial .testimonial-slide {
 	width: 70%;
 	margin: auto;
@@ -906,6 +903,9 @@ footer p{
 	padding-top: 1em;
 }
 
+#clubs h3{
+	color:#3cc55f;
+}
 
 
 /* Media queries */
