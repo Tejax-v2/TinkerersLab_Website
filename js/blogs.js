@@ -15,8 +15,8 @@ function smoothScroll(targetId) {
   document.querySelectorAll('.navbar-collapse    a').forEach(link => {
       link.addEventListener('click', (event) => {
           event.preventDefault();
-          window.location.href="index.html";
-      const targetId = link.getAttribute('href');
+          window.location.href = 'index.html';
+      targetId = link.getAttribute('href');
       smoothScroll(targetId);
     });
   });

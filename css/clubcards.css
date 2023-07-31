@@ -104,8 +104,21 @@
   #resources .card{
     width: 250px;
     margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
   }
 
   #resources .card-body{
     padding: 0 10px 0 10px;
+  }
+
+  #resources img{
+    margin:30px;
+  }
+
+  @media (max-width: 599px) {
+    .cardbox > div:nth-last-child(-n+4) {
+      /* Your CSS rules for the selected divs */
+      display: none;
+    }    
   }
