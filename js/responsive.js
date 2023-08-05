@@ -80,13 +80,23 @@ function simulateSlowLoading() {
 
 
   x1 = document.querySelector("#top .content");
+  x2 = document.querySelector("#about .content");
+  x2img = document.querySelector("#about .app-image");
   if(innerWidth < 768){
     x1.classList.remove("slide-left");
     x1.classList.add("scale-up");
+    x2.classList.remove("slide-right");
+    x2.classList.add("slide-up");
+    if(x2img){
+      const parentElement = x2img.parentNode;
+      parentElement.removeChild(x2img);
+    }
   }
   else{
     x1.classList.add("slide-left");
     x1.classList.remove("scale-up");
+    // x2.classList.remove("slide-up");
+    // x2.classList.add("slide-right");
   }
 
 
@@ -103,16 +113,17 @@ function simulateSlowLoading() {
 
   ScrollReveal().reveal('.slide-right', {
     origin: 'right',
-    distance: '300px',
+    distance: '100px',
     duration: 2000,
     easing: 'ease-in-out',
   });
 
   ScrollReveal().reveal('.slide-up', {
     origin: 'bottom',
-    distance: '300px',
-    duration: 2000,
+    distance: '100px',
+    duration: 1000,
     easing: 'ease-in-out',
+    interval: 200,
   });
 
   ScrollReveal().reveal('.slide-down', {
@@ -124,9 +135,10 @@ function simulateSlowLoading() {
 
   ScrollReveal().reveal('.scale-up', {
     scale: 0.7,
-    duration: 2000,
+    duration: 1000,
     easing: 'ease-in-out',
     opacity: 0,
+    interval: 200,
   });
 
 
