@@ -77,3 +77,64 @@ function simulateSlowLoading() {
   // Call the function to simulate slow loading
   simulateSlowLoading().then(showWebsiteContent);
   
+
+
+  x1 = document.querySelector("#top .content");
+  if(innerWidth < 768){
+    x1.classList.remove("slide-left");
+    x1.classList.add("scale-up");
+  }
+  else{
+    x1.classList.add("slide-left");
+    x1.classList.remove("scale-up");
+  }
+
+
+  ScrollReveal().reveal('.show-once', {
+    reset: false,
+  });
+
+  ScrollReveal().reveal('.slide-left', {
+    origin: 'left',
+    distance: '300px',
+    duration: 2000,
+    easing: 'ease-in-out',
+  });
+
+  ScrollReveal().reveal('.slide-right', {
+    origin: 'right',
+    distance: '300px',
+    duration: 2000,
+    easing: 'ease-in-out',
+  });
+
+  ScrollReveal().reveal('.slide-up', {
+    origin: 'bottom',
+    distance: '300px',
+    duration: 2000,
+    easing: 'ease-in-out',
+  });
+
+  ScrollReveal().reveal('.slide-down', {
+    origin: 'top',
+    distance: '300px',
+    duration: 2000,
+    easing: 'ease-in-out',
+  });
+
+  ScrollReveal().reveal('.scale-up', {
+    scale: 0.7,
+    duration: 2000,
+    easing: 'ease-in-out',
+    opacity: 0,
+  });
+
+
+
+
+
+
+
+
+
+
