@@ -15,16 +15,6 @@ window.addEventListener('DOMContentLoaded', () => {
     }
 
 
-// let logos = document.getElementsByClassName("app-image");
-// console.log(logos);
-// if (innerWidth <768){
-//     logos[0].style.display = "block";
-//     logos[1].style.display = "none";
-// }
-// else{
-//     logos[0].style.display = "none";
-//     logos[1].style.display = "block";
-// }
 
     // Call the function on page load and whenever the window is resized
     updateParagraphContent();
