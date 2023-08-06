@@ -208,9 +208,24 @@ h4.media-heading {
    3. Section Header                 
 ========================================= */
 header {
-	background: url(../images/herobg.jpeg) 50% 0 no-repeat fixed;
+	background: url(../images/back7.avif) 50% 0 no-repeat fixed;
 	background-size: cover;
 }
+/* header{
+	filter: blur(2px) brightness(40%);
+} */
+header::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	backdrop-filter: blur(2px) brightness(30%); /* Backdrop filter applied to the pseudo-element */
+  }
+/* .top{
+	backdrop-filter: blur(5px);
+} */
 .top .photo-slide {
 	max-width: 252px;
 	margin: auto;
