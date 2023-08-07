@@ -219,8 +219,10 @@ header::before {
 	position: absolute;
 	top: 0;
 	left: 0;
-	right: 0;
-	bottom: 0;
+	/* right: 0;
+	bottom: 0; */
+	height:100%;
+	width:100%;
 	backdrop-filter: blur(2px) brightness(30%); /* Backdrop filter applied to the pseudo-element */
   }
 /* .top{
@@ -942,16 +944,6 @@ i.fa-trophy:hover{
 	color:gold !important;
 }
 
-.navbar-header{
-	display:flex;
-	align-items: center;
-}
-
-.navbar-header img{
-	width:40px;
-	margin-right: 0.5em;
-	margin-bottom: 0.3em;
-}
 
 /* Media queries */
 
@@ -1100,5 +1092,18 @@ i.fa-trophy:hover{
 	animation: rotate 4s linear infinite;
   }
 
-
-  
+/* .navlogo{
+	width: 40px !important;
+	height: auto !important;
+	padding: 0 !important;
+	/* padding:1% 0 1% 0 !important; 
+	vertical-align: center;
+} */
+ 
+.navlogo{
+	float: left;
+	display: block !important;
+	width: 40px !important;
+	padding: 0 !important;
+	margin-right: 0.3em !important;
+}
