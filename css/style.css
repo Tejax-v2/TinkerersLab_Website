@@ -315,7 +315,7 @@ header::before {
 }
 .navigation .navbar .navbar-brand {
 	color: #fff;
-	font-size: 40px;
+	font-size: 1.6em;
 	font-weight: 700;
 	height: 70px;
 	line-height: 35px;
@@ -940,6 +940,17 @@ i.fa-screwdriver-wrench:hover{
 }
 i.fa-trophy:hover{
 	color:gold !important;
+}
+
+.navbar-header{
+	display:flex;
+	align-items: center;
+}
+
+.navbar-header img{
+	width:40px;
+	margin-right: 0.5em;
+	margin-bottom: 0.3em;
 }
 
 /* Media queries */
