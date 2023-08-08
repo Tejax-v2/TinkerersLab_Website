@@ -29,7 +29,7 @@ function simulateSlowLoading() {
     });
   }
   
-
+if(document.referrer==''){
   // Function to hide the splash screen and show the website content
   function showWebsiteContent() {
     const splashScreen = document.getElementById("fullScreenOverlay");
@@ -59,7 +59,11 @@ function simulateSlowLoading() {
   
   // Call the function to simulate slow loading
   simulateSlowLoading().then(showWebsiteContent);
-  
+}
+else{
+  const splashScreen = document.getElementById("fullScreenOverlay");
+  splashScreen.style.display = "none";
+}
 
 
   x1 = document.querySelector("#top .content");
