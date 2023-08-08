@@ -315,6 +315,7 @@ header .bg-color{
 	border: none;
 	border-radius: 0;
 	clear: both;
+	border-bottom: 8px solid #666;
 }
 .navigation .navbar-default .navbar-nav>li>a {
 	color: rgba(255, 255, 255, 0.78);
