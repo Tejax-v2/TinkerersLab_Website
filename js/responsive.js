@@ -21,6 +21,7 @@ window.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('resize', updateParagraphContent);
 });
 
+if(document.referrer==''){
 // JavaScript to simulate slow loading
 function simulateSlowLoading() {
     return new Promise((resolve) => {
@@ -29,7 +30,6 @@ function simulateSlowLoading() {
     });
   }
   
-if(document.referrer==''){
   // Function to hide the splash screen and show the website content
   function showWebsiteContent() {
     const splashScreen = document.getElementById("fullScreenOverlay");
