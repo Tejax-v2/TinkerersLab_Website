@@ -211,20 +211,24 @@ header {
 	background: url(../images/back7.avif) 50% 0 no-repeat fixed;
 	background-size: cover;
 }
+
+header .bg-color{
+	backdrop-filter: blur(2px) brightness(30%); 
+}
 /* header{
 	filter: blur(2px) brightness(40%);
 } */
-header::before {
+/* header::before {
 	content: "";
 	position: absolute;
 	top: 0;
 	left: 0;
-	/* right: 0;
-	bottom: 0; */
+	right: 0;
+	bottom: 0;
 	height:100%;
 	width:100%;
-	backdrop-filter: blur(2px) brightness(30%); /* Backdrop filter applied to the pseudo-element */
-  }
+	backdrop-filter: blur(2px) brightness(30%); 
+  } */
 /* .top{
 	backdrop-filter: blur(5px);
 } */
