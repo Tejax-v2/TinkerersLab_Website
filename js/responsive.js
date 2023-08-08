@@ -29,13 +29,6 @@ function simulateSlowLoading() {
     });
   }
   
-  // function fadeOutAndHide() {
-  //   const divToAnimate = document.getElementById("myDiv");
-  //   divToAnimate.style.opacity = "0"; // Set opacity to 0 for fade-out effect
-  //   setTimeout(function() {
-  //     divToAnimate.style.display = "none"; // After the animation, hide the div
-  //   }, 500); // Set the timeout to match the transition duration (0.5s in this example)
-  // }
 
   // Function to hide the splash screen and show the website content
   function showWebsiteContent() {
