@@ -71,22 +71,24 @@
 		width: 100%;
 	}
 
-	.heropic{
-		display:block;
+	.heropic {
+		display: block;
 	}
-	.abtpic{
-		display:none;
+
+	.abtpic {
+		display: none;
 	}
 }
 
 @media (min-width: 769px) {
-	.heropic{
-		display:none;
+	.heropic {
+		display: none;
 	}
-	.abtpic{
-		display:block;
+
+	.abtpic {
+		display: block;
 	}
-	
+
 }
 
 @media screen and (max-width: 640px) {

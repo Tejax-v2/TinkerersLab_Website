@@ -1,116 +1,116 @@
 .team-boxed {
-    color:white;
-    background-color:transparent;
-  }
-  
-  .team-boxed p {
-    color:white;
-  }
-  
+  color: white;
+  background-color: transparent;
+}
+
+.team-boxed p {
+  color: white;
+}
+
+.team-boxed h2 {
+  /* font-weight:bold; */
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: inherit;
+}
+
+@media (max-width:767px) {
   .team-boxed h2 {
-    /* font-weight:bold; */
-    margin-bottom:40px;
-    padding-top:40px;
-    color:inherit;
+    margin-bottom: 25px;
+    padding-top: 25px;
+    /* font-size:24px; */
   }
-  
-  @media (max-width:767px) {
-    .team-boxed h2 {
-      margin-bottom:25px;
-      padding-top:25px;
-      /* font-size:24px; */
-    }
-  }
-  
-  .team-boxed .intro {
-    /* font-size:16px; */
-    max-width:500px;
-    margin:0 auto;
-  }
-  
-  .team-boxed .intro p {
-    margin-bottom:0;
-  }
-  
-  .team-boxed .people {
-    padding:0;
-  }
-  
-  .team-boxed .item {
-    text-align:center;
-  }
-  
-  .team-boxed .item .box {
-    text-align:center;
-    padding:30px;
-    /* background-color:#fff; */
-    margin-bottom:30px;
-  }
-  
-  .team-boxed .item .name {
-    /* font-weight:bold; */
-    margin-top:28px;
-    margin-bottom:8px;
-    color:inherit;
-  }
-  
-  .team-boxed .item .description {
-    /* font-size:15px; */
-    margin-top:15px;
-    margin-bottom:20px;
-  }
-  
-  .team-boxed .item img {
-    display:inline-block;
-    border-radius: 999px;
-    max-width:160px;
-  }
-  
-  .team-boxed .social {
-    /* font-size:18px; */
-    color:white;
-  }
-  
-  .team-boxed .social a {
-    color:inherit;
-    margin:0 10px;
-    display:inline-block;
-    opacity:0.7;
-  }
-  
-  .team-boxed .social a:hover {
-    opacity:1;
-  }
-  
-  
+}
+
+.team-boxed .intro {
+  /* font-size:16px; */
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.team-boxed .intro p {
+  margin-bottom: 0;
+}
+
+.team-boxed .people {
+  padding: 0;
+}
+
+.team-boxed .item {
+  text-align: center;
+}
+
+.team-boxed .item .box {
+  text-align: center;
+  padding: 30px;
+  /* background-color:#fff; */
+  margin-bottom: 30px;
+}
+
+.team-boxed .item .name {
+  /* font-weight:bold; */
+  margin-top: 28px;
+  margin-bottom: 8px;
+  color: inherit;
+}
+
+.team-boxed .item .description {
+  /* font-size:15px; */
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.team-boxed .item img {
+  display: inline-block;
+  border-radius: 999px;
+  max-width: 160px;
+}
+
+.team-boxed .social {
+  /* font-size:18px; */
+  color: white;
+}
+
+.team-boxed .social a {
+  color: inherit;
+  margin: 0 10px;
+  display: inline-block;
+  opacity: 0.7;
+}
+
+.team-boxed .social a:hover {
+  opacity: 1;
+}
 
 
 
-  .cardbox{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 40px;
-  }
 
-  #resources .card{
-    width: 250px;
-    margin: 10px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
-  }
 
-  #resources .card-body{
-    padding: 0 10px 0 10px;
-  }
+.cardbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 40px;
+}
 
-  #resources img{
-    margin:30px;
-  }
+#resources .card {
+  width: 250px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
 
-  @media (max-width: 599px) {
-    .cardbox > div:nth-last-child(-n+4) {
-      /* Your CSS rules for the selected divs */
-      display: none;
-    }    
+#resources .card-body {
+  padding: 0 10px 0 10px;
+}
+
+#resources img {
+  margin: 30px;
+}
+
+@media (max-width: 599px) {
+  .cardbox>div:nth-last-child(-n+4) {
+    /* Your CSS rules for the selected divs */
+    display: none;
   }
+}

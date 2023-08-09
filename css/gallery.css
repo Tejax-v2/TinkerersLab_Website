@@ -378,27 +378,27 @@ Remove or comment-out the code block below to see how the browser will fall-back
     }
 }
 
-.filters{
-    display:flex;
+.filters {
+    display: flex;
     justify-content: center;
     padding: 0;
     flex-wrap: wrap;
     max-width: 100%;
 }
 
-.filter-btn{
-    display:inline;
+.filter-btn {
+    display: inline;
     border: 1px solid #333;
-    margin:20px 5px;
+    margin: 20px 5px;
 }
 
-@media (max-width: 500px){
-    .filter-btn{
+@media (max-width: 500px) {
+    .filter-btn {
         margin: 10px 5px;
     }
 }
 
-.filter-btn button{
+.filter-btn button {
     padding: 5px 10px;
     margin: 0;
 }
