@@ -82,8 +82,6 @@ if (innerWidth < 768) {
 else {
   x1.classList.add("slide-left");
   x1.classList.remove("scale-up");
-  // x2.classList.remove("slide-up");
-  // x2.classList.add("slide-right");
 }
 
 
